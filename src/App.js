@@ -9,6 +9,7 @@ import Client from './Client';
 import CoreValues from './CoreValues';
 import BlogSection from './BlogSection';
 import GetInTouch from './GetInTouch';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <CoreValues/>
       <GetInTouch/>
       <BlogSection/>
+      <Footer/>
     </div>
   );
 }

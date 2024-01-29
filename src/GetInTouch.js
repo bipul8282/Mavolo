@@ -7,6 +7,7 @@ function YourComponent() {
     email: '',
     companyName: '',
     message: '',
+    selectedProduct: '',
   });
 
   const [errors, setErrors] = useState({
@@ -19,6 +20,13 @@ function YourComponent() {
     setFormData({
       ...formData,
       [name]: value,
+    });
+  };
+
+  const handleProductChange = (selectedProduct) => {
+    setFormData({
+      ...formData,
+      selectedProduct,
     });
   };
 
@@ -53,6 +61,7 @@ function YourComponent() {
       email: '',
       companyName: '',
       message: '',
+      selectedProduct: '',
     });
     setErrors({
       name: '',
@@ -117,6 +126,20 @@ function YourComponent() {
                 required
               ></textarea>
               <small></small>
+            </p>
+            <p className="full-width">
+              <select
+                id="products"
+                className="form-input"
+                name="selectedProduct"
+                value={formData.selectedProduct}
+                onChange={(e) => handleProductChange(e.target.value)}
+              >
+                <option value="" disabled>Select a Product</option>
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                {/* Add more product options as needed */}
+              </select>
             </p>
             <p className="full-width">
               <input type="checkbox" id="checkbox" name="checkbox" checked />
