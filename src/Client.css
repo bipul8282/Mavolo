@@ -1,5 +1,3 @@
-/* Client.css */
-
 .ScrollViewer {
   width: 100%;
   overflow: hidden;
@@ -10,9 +8,9 @@
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS devices */
+  -webkit-overflow-scrolling: touch; 
 
-  /* Adjust the height based on your design */
+  
   height: 200px;
 }
 
@@ -29,8 +27,8 @@
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   .Client {
-    scroll-behavior: smooth; /* Enables smooth scrolling on small screens */
-    scroll-snap-type: none; /* Disable snap scrolling on small screens */
+    scroll-behavior: smooth; 
+    scroll-snap-type: none; 
   }
 }
 
@@ -38,14 +36,11 @@
 .ScrollButtons {
   display: flex;
   justify-content: space-between;
-  /* position: absolute;
- top: 800px; */
+  
 }
 
 .ScrollButtons button {
   background: none;
-  /* border: none; */
   cursor: pointer;
-  font-size: 5; /* Hide the button text */
-
+  font-size: 5; 
 }

@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import './Footer.css';
 
@@ -27,7 +26,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              {/* ... (similar conversion for other columns) */}
+             
             </div>
           </div>
         </div>

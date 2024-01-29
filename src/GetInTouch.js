@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './GetInTouch.css'; // Make sure to import your CSS file
+import './GetInTouch.css'; 
 
 function YourComponent() {
   const [formData, setFormData] = useState({

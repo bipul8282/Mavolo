@@ -1,5 +1,5 @@
 import React from 'react';
-import './CoreValues.css'; // Create a corresponding CSS file
+import './CoreValues.css'; 
 
 function CoreValues() {
   return (

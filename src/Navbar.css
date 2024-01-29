@@ -2,16 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:whitesmoke;  /* Add a background color */
-    padding: 15px;  /* Add padding to create space around the content */
+    background-color:whitesmoke; 
+    padding: 15px;  
   }
   
   .Nav h1, .Nav h2 {
     margin: 0;
     padding: 10px;
     cursor: pointer;
-    color: #050505;  /* Set text color to white */
-    font-family: 'Arial', sans-serif;  /* Set font family */
+    color: #050505;  
+    font-family: 'Arial', sans-serif;  
   }
   
   .Nav img {
@@ -19,15 +19,15 @@
   }
   
   .Nav h1 {
-    margin-right: 20px;  /* Adjust the margin for spacing */
+    margin-right: 20px;  
   }
   
-  /* Style for navigation links */
+  
   .Nav h2 {
-    transition: color 0.3s;  /* Add a smooth color transition */
+    transition: color 0.3s;  
   }
   
   .Nav h2:hover {
-    color: #FFD700;  /* Change text color on hover */
+    color: #FFD700;  
   }
   

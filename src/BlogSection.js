@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogSection.css'; // Make sure to create a CSS file for styling
+import './BlogSection.css'; 
 
 function BlogSection() {
   return (

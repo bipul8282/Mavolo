@@ -8,7 +8,6 @@
   
   .ProBox {
     display: flex;
-    /* flex-direction: row; */
     gap: 50px;
     flex-flow: row;
     justify-content: space-between;
@@ -24,7 +23,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.5s ease-in-out;
     display: flex;
-    flex-direction: column; /* Adjust to column layout */
+    flex-direction: column; 
     justify-content: space-between;
     align-items: flex-start; 
 position: relative;
@@ -32,7 +31,6 @@ color: white;
    } 
 
    .images{
-    /* display: flex; */
     position: absolute;
     top: 117rem;
     left: 36%;
@@ -41,7 +39,6 @@ color: white;
     background-color: transparent;
    }
  .images2{
-  /* display: flex; */
   position: absolute;
   top: 115rem;
   left: 62%;
@@ -79,7 +76,7 @@ height: 45px;
   .Pro2 h1,
   .Pro1 h4,
   .Pro2 h4 {
-    margin: 0; /* Remove default margins */
+    margin: 0; 
   }
   
   .Pro1 img,
@@ -92,8 +89,8 @@ height: 45px;
   
   .Pro1 .MuiSvgIcon-root,
   .Pro2 .MuiSvgIcon-root {
-    margin-top: auto; /* Move the icon to the bottom */
-    font-size: 5rem; /* Increase the icon size */
+    margin-top: auto; 
+    font-size: 5rem; 
   }
   .heading{
     color: white;
