@@ -34,8 +34,8 @@ color: white;
    .images{
     /* display: flex; */
     position: absolute;
-    top: 97rem;
-    left: 32%;
+    top: 117rem;
+    left: 36%;
     width: 22rem;
     height: 33rem;
     background-color: transparent;
@@ -43,8 +43,8 @@ color: white;
  .images2{
   /* display: flex; */
   position: absolute;
-  top: 95rem;
-  left: 65%;
+  top: 115rem;
+  left: 62%;
   width: 27rem;
   height: 40rem;
   background-color: transparent;
@@ -53,7 +53,7 @@ color: white;
 background-color: lightgray;
 display: flex;
 position: absolute;
-top: 124rem;
+top: 144rem;
 width: 85px;
 height: 45px;
   }
@@ -61,8 +61,8 @@ height: 45px;
     background-color: lightgray;
     display: flex;
     position: absolute;
-    top: 124rem;
-    left: 52%;
+    top: 144rem;
+    left: 50.5%;
     width: 85px;
     height: 45px;
       }
